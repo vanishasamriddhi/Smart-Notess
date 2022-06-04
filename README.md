@@ -2,7 +2,7 @@
  This is a web app through which you can make notes with your voice.
 
 You can use this web-app for making notes via your voice. to know about - how to use this web app click on the quick guide button and you will see all the related button What this app does 
-*1*- it records your voice 
+-*1*- it records your voice 
 2- it types your speech 
 3- you can copy the auto-typed text 
 4- it speaks out your recorded voice 
