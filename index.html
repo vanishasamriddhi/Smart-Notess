@@ -1,19 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Just talk!</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./web-icons.png" type="image/x-icon" />
-    <script data-ad-client="ca-pub-8021610598716211" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  </head>
-  <body>
-     
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- link to Bootstrap minified css-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- link to Jquery minified-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- link to Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- link to external CSS -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="Images/web-icons.png" type="image/favicon" />
+
+
+</head>
+<body>
+	<nav class="nav navbar-fixed-top navbar-inverse" >
+        <div class="continer">
+            <!-- <div class="navbar-header"> -->
+               
+                <h2 align-content="center" color="white">Smart Notes</h2>
+            <!-- </div> -->
+           
+        </div>
+       </nav> 
+	
+<div class="containr">
     <h3>Let's make out smart notes!</h3>
 
-    <div>
+    <div class="top">
         <button id="start">start recording</button>
         <button id="stop">stop recording</button>
     </div>
@@ -25,19 +44,20 @@
     </textarea>
     
   
-    <div>
+    <div class="bottom">
       <button id="copyText">Copy Text</button>
       <button id="speakOut">Speak Out</button>
       <button id="clearText">Clear Text</button>
     </div>
+    
+</div>
 
-    <div class="bottomDiv">
-      <button id="quickGuide">Quick Guide</button>
-      <p id="quickGuideText"></p>
-      <p id="whatHappened"></p>
-    </div>
-
-    <noscript>Sorry Javascript is not activated in your browser ! Please do try updating..</noscript>
+<div class="bottomDiv">
+    <button id="quickGuide">Quick Guide</button>
+    <p id="quickGuideText"></p>
+    <p id="whatHappened"></p>
+  </div>
+  <noscript>Sorry Javascript is not activated in your browser ! Please do try updating..</noscript>
     <script src="./script.js"></script>
-  </body>
+</body>
 </html>
